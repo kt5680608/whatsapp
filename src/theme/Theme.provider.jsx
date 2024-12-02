@@ -1,6 +1,10 @@
 import { createTheme, ThemeProvider as MuiThemeProvider } from "@mui/material"
 
 const theme = createTheme({
+    spacing: 2,
+    palette:{
+        mode: 'dark',
+    },
     components:{
         MuiButton:{
             defaultProps:{

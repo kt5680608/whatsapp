@@ -7,7 +7,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { ThemeProvider } from './theme';
-import 'normalize.css'
+import 'normalize.css';
+import './assets/styles/common.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
