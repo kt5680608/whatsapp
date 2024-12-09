@@ -1,11 +1,12 @@
 import { PhoneBookHeader } from "./components/PhoneBook/PhoneBookHeader";
-
+import { PhoneBookMain } from './components/PhoneBook/PhoneBookMain';
 
 
 export default function App(){
   return(
-    <h1>
-      <PhoneBookHeader/>
-    </h1>
+    <>
+      <PhoneBookHeader/>      
+      <PhoneBookMain/>
+    </>
   )
 }
