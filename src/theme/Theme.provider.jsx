@@ -3,6 +3,9 @@ import { createTheme, ThemeProvider as MuiThemeProvider } from "@mui/material"
 const theme = createTheme({
     spacing: 2,
     palette:{
+        primary: {
+            main: '#0CA996'
+        },
         mode: 'dark',
     },
     components:{
